@@ -1,0 +1,206 @@
+/// A4TECH's ScrollTrack4D¿ TrackBall Driver - KOSS 2000 //////////////////////
+
+--- Program Informations ------------------------------------------------------
+
++ Purpose
+  - Extended Serial Mouse Driver for Motorola based ATARI Computers
+
++ Version
+  - ACC Version, Rev 1.06
+
++ Coders
+  - Santorin of the CYCLADES         06/1993
+  - ROCHE Xavier
+  - Kochise of STALLION SOFTWARE 08/2000
+
++ OS Version
+  - TOS Compatible Machine (LineA NEEDED !!!)
+
++ HardWare
+  + ATARI Falcon030 (best)
+    - 68030
+    - VidelPROCESSOR
+
++ Fully Tested & Developped on an ATARI Falcon030 @ 16MHz
+  + TOS 4.04     (Tramiel Operating System / GEMDOS-GEM-BIOS-XBIOS)
+    + GEM 0.30   (Graphic Environment Manager / VDI-AES)
+      - AES 3.40 (Application Environment Services)
+
++ Assembler
+  - HiSoft Devpac 3.10
+
+--- OS PlateForm --------------------------------------------------------------
+
++ SHOULD WORK on
+  + ATARI Computers
+  | - TT030
+  | + Falcon030
+  | | + Boosted ATARI Falcon030
+  | |   - AfterBurner040 (Titan Design)
+  | |   - CenTurbo 1 & 2 (Centek)
+  | + Boosted ATARI ST
+  |   - SST 030 (Gadget By Small)
+  |   - Booster 020 (Mr CONTE Jean)
+  + Medusa Systems
+  | - Medusa040
+  | - Medusa060
+  | - Hades040
+  | - Hades060
+  + Milan Computer
+    - The MILAN040
+    - The MILAN060
+
+--- Installation --------------------------------------------------------------
+
++ ACCESSORY Installation
+  + Normal Installation
+  | - Copy the SCROLL4D.ACC file on the Root of your Boot Drive
+  + ACCFOLDR Utility Resident
+    - Copy the SCROLL4D.ACC file in the \ACCS Directory of your Bo
+
+--- Usage ---------------------------------------------------------------------
+
++
+
+--- Noticable Change ----------------------------------------------------------
+
++ So many that you never expected to...
+
+--- Known Bugs ----------------------------------------------------------------
+
++ Well, not many, but some...
+
+--- Release Mode -------------------------------------------------------------
+
++ A4TECH-Ware
+  - Prevent you from RSI with an UltraErgonomic TrackBall
+
++ ARTE-Ware
+  - Improve your SOUL !!!
+
+Please support them for their efforts to make the World better !!! I'm SERIOUS
+
+--- Comments ------------------------------------------------------------------
+
++ This 'HUGE WORK' is based on the Original SPEED_MS of Santorin and a 'little'
+  part of the SSAVCALL Project v2.55 of KOSS (1999)
+
++ Thanks to Santorin, without whom this OUTSTANDING Driver wouldn't exist !!!
+
+
+--- History -------------------------------------------------------------------
+
++ 2000
+  + April
+  | + Sat 22
+  | | - Rev 0.00  Buying of the A4TECH's ScrollTrack4D¿ TrackBall
+  | + Sun 23
+  | | - Rev 1.00  Desassembling of the SPEED_MS Serial Mouse Driver of Santorin
+  | + Mon 24
+  | | - Rev 1.01à DialChecker Version -> I founded how the ScrollTrack4D¿ react
+  | + Wed 27
+  | | - Rev 1.01á Basic Mouse Mode, supported since the 01/23/04/2000, improved
+  | + Sun 30
+  |   - Rev 1.02à VHWheels supported -> still very UNSTABLE
+  + May
+  | + Mon  1
+  | | - Rev 1.03  3rd Button works fine -> ScrollPerPage Active
+  | + Tue  2
+  |   - Rev 1.04  Polishing-UP Original Source Code -> NOW STABLE
+  + June
+  | + Sun 11
+  |   - Rev 1.05  Added ROCHE Xavier's Turbo Veille
+  + August
+
+--- What would come in the next release... ------------------------------------
+
++ Can't say, I'm not a soothsayer...
+
+--- Sources Release -----------------------------------------------------------
+
++ FREE !!! ONLY via A4TECH and ARTE...
+
+--- Thanks to (Random Order) : ------------------------------------------------
+
+MULLER Beatrice .......................................................... ARTE
+God ................................................................. The World
+Guido Vollbeding .................................................... 1ST GUIDE
+Stabylo (& Seb) of The Removers .................................... AVI PLAYER
+Praga Khan & the whole of Lords Of Acid ........................... Great MUSIC
+M. KOCH (Mind Evolutions/MINDWORKS) ............................... Great MUSIC
+Tord Jannson ...................................................... Shower 1.00
+MySelf ............................................................ Why NOT !!!
+CHAMPAGNE Alain .................................................. Talented ONE
+GARCIA Alain (and his family, of course) ......................... God on Earth
+Martin Osieka ................................................... GEMRAM & WINX
+ATTARD Claude ................................................ GEM Informations
+Chris Of AURA & Zerkman Of Trisomic Development ............ VIDEL Informations
+ROHAUT Seb .............................................. Assembler Discovering
+HIEBEL Joel ......................................... the Falcon030 Discovering
+CLERC Michel ........................................ for the ATARI Discovering
+ATARI ........................................... I don't EVEN remember WHY !!!
+A4TECH ......................................... the OUTSTANDING ScrollTrack4D¿
+Motorola ................................... the 680x0 range of MicroProcessors
+BLONDEAU Alain ..................... the Falcon603 (APPLE Performa) Discovering
+Godefroy de MAPEOU ......... the answer, EVEN if I not agree with him about all
+ROCHE Xavier ...... that JUST GREAT Turbo Veille, saving 99.9% of the CPU Time
+Santorin ...... for having given me the courage I lacked of to code this Driver
+and many others...
+
+--- Good Advice ---------------------------------------------------------------
+
++ Please Discover and Try 'Real Time Operating Systems' (RTOS), such as BeOS or
+  QNX : It REALLY worth, It HITS the spot... :)  )
+
+--- Contacts ------------------------------------------------------------------
+
++ Kochise (Keep Cool waiting for an Answer, it could take a while)
+  + Web
+  | - http://perso.libertysurf.fr/kochise/
+  + E-Mail
+    - kochise@caramail.com
+    - kochise.koss@libertysurf.fr
+
++ ARTE
+  + Web
+  | - http://www.arte-tv.com
+  + E-Mail
+    - communication@arte-tv.com
+
++ A4TECH
+  + Web
+  | - http://www.a4tech.com
+  + E-Mail
+    - info@a4tech.com
+
+--- Kochise's ATARI Products (Rev from 1.00 works, before are studies) --------
+
+* still in (R)Evolution
++ Comatose Project
+. Closed Project
+
+   ,------------------------------------,------------------------------------,
+   | Released                           | UnReleased                         |
+ ,-+------------------------------------+------------------------------------+
+ | |                                    | + FlashTOS (BiTOS Card for Falcon) |
+ |H| < Empty Folder >                   | . ORIDES (Rack for IDE Devices)    |
+ |a|                                    | . VROOMPad (ControlPad for VROOM)  |
+ |r|                                    |                                    |
+ |d|                                    |                                    |
+ |W|                                    |                                    |
+ |a|                                    |                                    |
+ |r|                                    |                                    |
+ |e|                                    |                                    |
+ | |                                    |                                    |
+ +-+------------------------------------+------------------------------------+
+ | | . PRAWPLAY 1.29                    | + FillyBASIC 0.02 (ReStarted)      |
+ |S| . Motion SoundTrack Player á       | + PonyDRIVER 0.01 (ReStarted)      |
+ |o| + ScrollTrack4D¿ Mouse Driver 1.06 | * SSAVCALL 3.02                    |
+ |f|                                    | * NeoSCAPE 4.01 (for NeoN)         |
+ |t|                                    | * VidelDRIVER 0.15                 |
+ |W|                                    | * FishEyes3DRout (BELLAMY Bruno)   |
+ |a|                                    | . CDTrack 1.00                     |
+ |r|                                    | . VidelCUT 1.00 (includes CDTrack) |
+ |e|                                    | + FramePLAYER 1.48                 |
+ | |                                    | + StarSeekerLABORATORY 0.21        |
+ '-+------------------------------------'------------------------------------'
