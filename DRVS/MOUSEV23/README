@@ -1,0 +1,63 @@
+     MOUSE.PRG
+     ---------
+     You  all  know  the  mice, connected with a serial port of a PC. This
+     driver  gives  you  the  possibility to use them on an serial port of
+     your ST, TT or Falcon.
+
+
+     Installation:
+     ------------
+     Start  GENMOUSE.PRG  and  select the port your mouse is connected to.
+     The  checkbox 'Logitech' is for a mouse of this company, the checkbox
+     'left-handed' swaps left for right button of your mouse.
+     Place the program at "C:\AUTO\" - and restart your computer (or start
+     it from the desk).
+     You can use both, standard mouse and serial mouse, at the same time.
+
+
+     Attention:
+     ---------
+     Programs  that  changing  parameters  of the serial port handicap the
+     driver.  So  if  you want to use the 'SERIAL.CPX' you have to set the
+     parameters  of  the  mouseport to 1200 8N1 for a serial mouse or 1200
+     7n1 for a Logitech mouse.
+
+
+     There are different possibilities for the use of
+      The middle mouse button:
+      -----------------------
+     - Simulate a doubleclick of the left button by pressing it once.
+     - Holding  it  down and using the left mouse button, the shift-key is
+       simulated  -  so one can select some elements of a list (some files
+       in a desk window).
+     - On  newer versions of the desk one can move and rename a file whith
+       drag and drop and holding down the 'alt' or 'control'-key.
+       Now you can do that without grabbling at the keyboard: Clicking the
+       middle button while dragging files holding down the left button.
+       Clicking  once simulates 'control' (move). Clicking twice simulates
+       'alternate' (rename).  Another  click  makes  the desktop think one
+       hold  down  'control'  +  'alt' (move and rename). The fourth click
+       stops all that nightmare.
+
+
+     Trouble: > My middle mouse button won't work <
+     -------
+     The  middle  mouse button isn't supported by MS-mode (one more reason
+     for  <hating microsoft). So if you find a switch at the bottom of the
+     mouse  set it to PC-mode. Another (not so comfortable) way is holding
+     down  the  left  mouse button while switching on your computer, cause
+     serial (not logitech) mice start working in MS-mode normally.
+     A number of mice i saw own no switch, but when you open the case, you
+     can  find  the place for it. (there must be three not used holes in a
+     row, in some cases you can read >SW< or so near this place).
+     Connecting  the  middle  pin with one of the others using a wire will
+     teach PC-mode to the mouse - try it out (but at your own risk).
+
+     If  someone  know  a  way  to switch the mouse-protocol by a software
+     solution, please contact me.
+
+     This program is placed in the public domain.
+
+           Good Hacking, T34             Rostock, march 31 1995
+
+     E-Mail: t34@physik1.uni-rostock.de

@@ -1,0 +1,21 @@
+Ce petit programme
+extrŠmement pratique 
+permet de piloter une 
+souris PC … partir de 
+votre Falcon. Reliez 
+votre souris PC au 
+port DB9 situ‚ au dos 
+du Falcon, et lancez 
+le programme. C'est 
+tout et ‡a marche !!
+
+L'avantage de ce 
+programme !? Simple, 
+il permet de 
+remplacer l'infƒme 
+souris livr‚e 
+d'origine et 
+d'utiliser n'importe 
+quelle souris (?) en
+provenance du monde
+PC !

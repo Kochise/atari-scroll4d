@@ -1,0 +1,93 @@
+                MOUSE.PRG - Der Treiber fr serielle Nager am ST
+                ------------------------------------------------
+
+    Schon  lange  „rgerte  ich  mich  ber  den  Mausstecker an meiner MSTE-
+    Tastatur.  Zum  einen  ist er genau da, wo doch die Maus Platz ben”tigt,
+    zum  anderen  wird wirkungsvoll verhindert, da man die Tastatur mal fix
+    auf  den  Scho  nimmt. Ein Blick auf Big Blue Brother zeigt den Ausweg.
+    Eine serielle Maus mu her!
+
+
+    Was leistet der Treiber?
+    -----------------------
+    Untersttzt wird eine serielle Maus im MS-, PC- bzw. Logitech - Modus an
+    einer  beliebigen  seriellen  Schnittstelle  des ST, TT oder Falcon. Als
+    besonderer  Gimmeck ist es weiterhin m”glich die Atari-Maus zu benutzen.
+    So k”nnen sich zwei Nutzer um den Mauszeiger streiten :-)
+    Nicht  bercksichtigt  werden  Programme,  die  das  Signal  direkt  vom
+    Tastaturprozessor  erwarten  (TURBOASS, BOGABOO, SPECTRE, alle Meinolf -
+    Schneider - Machwerke). Hier kann MOUSE.PRG leider nichts treiben.
+    Im  Zuge  der  Anpassung an MultiTos sollten solche Extratouren aber der
+    Vergangenheit angeh”ren.
+
+
+    Installation
+    ------------
+    Im  Installationsprogramm  GENMOUSE legt man die Schnittstelle sowie das
+    Protokoll fest & kopiert den Treiber in den Autoordner - fertig.
+    Es  erfolgt  keine Abfrage ob der angegebene Port tats„chlich existiert,
+    also  bitte nichts Unsinniges eingeben. Die Schnittstelle des Falcon ist
+    brigens unter Modem 2 anzusprechen.
+    Durch die Wahl von 'Linksh„nder' erreicht man das Vertauschen von linker
+    & rechter Maustaste.
+
+    Programme, die an den Parametern der benutzten Schnittstelle drehen (das
+    sollte  eigentlich keines, ohne zu fragen), mssen auf die Parameter der
+    Maus  eingestellt  werden.  Wird  also  das  MODEM.CPX ben”tigt, mu man
+    MOUSE.PRG einmal von Desk starten und dann im CPX die Parameter sichern.
+
+
+    Funktionen der mittleren Maustaste:
+    ----------------------------------
+     - Ein normaler Klick entspricht einen Doppelklick der linken Maustaste.
+     - H„lt  man  die  mittlere  Taste  gedrckt und benutzt dabei die linke
+       Taste, wird das Niederdrcken der linken Shifttaste simuliert.
+       So  lassen sich im Desk mehrere Datei anw„hlen, ohne das zur Tastatur
+       gegriffen werden mu.
+     - H„lt man die linke Maustaste gedrckt, kann man durch Klicken mit der
+       Mittleren, den Shiftstatus in folgender Reihenfolge umschalten:
+       -> Control -> Alt -> Control+Alt -> aus
+       Bei  neueren Versionen des Desk's lassen sich auf diese Weise Dateien
+       verschieben und/oder umbenennen.
+
+    Vielleicht fallen Dir ja auch noch andere Anwendungen ein.
+
+    Falls  nun  Deine  mittlere  Maustaste  rein  gar  nichts von sich gibt,
+    besteht  folgendes  Problem. Viele PC (nicht Logitech!) - M„use befinden
+    nach  dem  Einschalten im Microsoft-Modus, in dem die mittlere Maustaste
+    nicht  bercksichtigt  wird.  Eine  (umst„ndliche)  M”glichkeit  sie  zu
+    berlisten,  ist  es, beim Einschalten des Computers die linke Maustaste
+    gedrckt  zu  halten.  Einige  Modelle  haben  an  der  Unterseite einen
+    Schalter  der  zwischen den Modi w„hlt. Bei meiner Maus war davon nichts
+    zu sehen, auf der Platine fand sich dann aber doch die dafr vorgesehene
+    Stelle. « cm Draht fhrte zum Erfolg.
+    Leider  ist es mir noch nicht gelungen die Umschaltung zwischen den Modi
+    durch  Software  zu  erreichen,  obwohl das einigen PC-Treibern gelingt.
+    Vielleicht gibt mir mal jemand einen Tip... Ich befrchte aber, das hier
+    jeder Hersteller sein eigenes Sppchen kocht. ,-(
+
+    MOUSE.PRG ist Public Domain, darf also frei kopiert und weitergegeben
+    werden. Eine Haftung fr irgendwelche Sch„den durch die Benutzung der
+    Soft kann ich natrlich nicht bernehmen. Die kommerzielle Verwertung
+    ist ausdrcklich untersagt. Auerdem mssen immer alle Dateien
+    weitergegeben werden, also:
+
+          GENMOUSE.PRG  - das Installationsprogramm
+          LIESMICH      - diese Datei
+          README        - nearly this file
+
+          Good Hacking, T34             Rostock, den 31.03.1995
+
+    E-Mail: t34@physik1.uni-rostock.de
+
+    History:
+    - V1.0   erster Hack, untersttzt nur Microsoft-Protokoll
+    - V2.0   erste ver”ffentlichte Version, das Serial Mouse Protokoll wird
+             untersttzt
+    - V2.1   vbl-Handler eigebaut, dadurch hat der Mauszeiger einen
+             ruhigeren Lauf
+    - V2.2   alle seriellen Port's des TT werden untersttzt
+    - V2.3   ú Untersttzung von Logitechm„usen
+             ú Funktionsweise der mittleren Maustaste ge„ndert (!!)
+             ú Installationsprogramm
+             ú README

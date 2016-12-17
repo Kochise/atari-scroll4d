@@ -1,0 +1,80 @@
+________________________________________________________________________
+ðððððððððððððððððððððððððððð  MOUSE v2.3 ððððððððððððððððððððððððððððððð
+------------------------------------------------------------------------
+
+
+     Le programme :
+     ------------
+       Les souris sur PC & compatibles sont connect‚es sur le port 
+       s‚rie. Ce pilote permet de faire pareil sur le port s‚rie
+       de votre ST, TT ou Falcon.
+
+
+     Installation :
+     ------------
+       Lancer GENMOUSE.PRG et s‚lectionnez le port o— est connect‚e
+        votre souris.
+       Le bouton 'Logitech' concerne les souris de cette marque.
+       Le bouton 'left-handed' bascule le bouton gauche et droite de
+        votre souris.
+       Par le bouton [Save] vous sauvegardez la configuration et
+        quittez le paramŠtrage de MOUSE. 
+       Placez le programme GENMOUSE.PRG dans le dossier AUTO de votre
+        systŠme ("C:\AUTO\") et relancez votre ordinateur (reset ou 
+        extinction & r‚allumage).
+       Vous pouvez utiliser les deux souris, souris standard et souris
+        s‚rie, en mˆme temps.
+
+
+     Attention :
+     ---------
+       Les programmes  qui changes les paramŠtres du port s‚rie
+       handicapent le pilote. Aussi si vous voulez utiliser le
+       CPX S‚rie (MODEM.CPX) vous devrez configurer les paramŠtres
+       du port de la souris sur :
+           1200 8N1 pour une souris s‚rie PC normale ou
+           1200 7n1 pour une souris Logitech.
+
+
+
+     Comment utiliser le boution du milieu de la souris ?
+     --------------------------------------------------
+
+      > Simuler un double-clic du bouton gauche par un seul clic.
+      > Le maintenir appuy‚ et utiliser le bouton gauche de la souris
+        pour simuler la touche [shift] pour s‚lectionner un ou
+        plusieurs objets d'une liste (par exemple dans une fenŠtre du
+        bureau).
+      > Sur les nouvelles versions du bureau, il est possible de
+        d‚placer et de renommer un fichier en le faisant glisser avec
+        la touche [Alt] ou [Control] appuy‚e.
+        Vous pouvez faire de mˆme maintenant. Cliquez sur le bouton du
+        milieu tout en faisant glisser les fichiers avec le bouton
+        gauche appuy‚.
+        Cliquer une fois simultan‚ment sur [Control] pour d‚placer.
+        Cliquer deux fois simultan‚ment sur [Alternate] pour renommer.
+        Un autre clic avec les touches [Control] + [Alt] provoque les
+        fonctions d‚placer et renommer. 
+        Le quatriŠme clic d‚sactive tout.
+
+
+     ProblŠme : > "mon bouton central ne fonctionne pas" <
+     --------
+       Cela peut arriver... patience en attendant une prochaine
+       version qui solutionnera ce problŠme.
+       APPEL :
+         Si quelqu'un connait la fa‡on de switcher le protocole 
+         "mouse-protocol" par une solution logicielle, qu'elle me
+         contacte, SVP.
+
+
+    =================================================================
+    ==           CE PROGRAMME EST UN DOMAINE PUBLIC.               ==
+    =================================================================
+  
+
+    Good Hacking, T34                        Rostock, le 31 mars 1995
+    E-Mail: t34@physik1.uni-rostock.de
+_________________________________________________________________________
+ðððððððððððð Traduction offerte par Bruno CHRISTEN = 1995 ððððððððððððððð
+-------------------------------------------------------------------------
