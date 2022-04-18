@@ -2,6 +2,8 @@
 
 Atari driver for A4Tech's WWT-13 trackball on serial port
 
+![A4Tech WWT-13 trackball](https://raw.githubusercontent.com/Kochise/atari-scroll4d/master/IMGS/PDyCi7p.jpg)
+
 * Hardware and software needed
 
 You need the following to get this program working :
@@ -9,7 +11,10 @@ You need the following to get this program working :
 \- Atari with a DB-9 serial port and a PS-2 adapter<br>
 \- A4Tech's WWT-13 trackball on serial port
 
-[A4Tech WWT-13 trackball](http://www.a4tech.com/product.asp?cid=1&scid=1&id=79)
+[A4Tech WOP-35 optical mouse](https://a4tech.net/product/product&cid=1&scid=8&id=22)
+
+[A4Tech WWT-13 trackball](https://a4tech.net/product&cid=1&scid=11&id=79)
+[A4Tech WWT-13 trackball](http://xahlee.info/kbd/a4tech_wwt-13_scrolltrack_4d_mouse.html)
 
 * List of programs
 
