@@ -13,7 +13,7 @@ You need the following to get this program working :
 
 [A4Tech WOP-35 optical mouse](https://a4tech.net/product/product&cid=1&scid=8&id=22)
 
-[A4Tech WWT-13 trackball](https://a4tech.net/product&cid=1&scid=11&id=79)
+[A4Tech WWT-13 trackball](https://a4tech.net/product&cid=1&scid=11&id=79)<br>
 [A4Tech WWT-13 trackball](http://xahlee.info/kbd/a4tech_wwt-13_scrolltrack_4d_mouse.html)
 
 * List of programs
