@@ -19,7 +19,7 @@ You need the following to get this program working :
 * List of programs
 
 \- MINIST4D.ACC : driver as an accessory to forward wheels' movement to the AES<br>
-\- SCROLL4D.SS : Motorola 68030 assembler source code for the accessoryk<br>
+\- SCROLL4D.SS : Motorola 68030 assembler source code for the accessory<br>
 \- SCROLL4D.TXT : Oh my, that looks so old and childish now :) I was in my 20s<br>
 \- WWT13DRV.SS : lame attempt to clean the mess and turn it into a TSR driver<br>
 
